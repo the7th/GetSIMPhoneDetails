@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         String imsi = mTelephonyMgr.getSubscriberId();
 
         TextView tv2 = (TextView) findViewById(R.id.tv2);
-        tv2.setText(imsi);
+        tv2.setText("IMSI: " + imsi);
 
     }
 }
